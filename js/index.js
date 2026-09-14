@@ -24,7 +24,7 @@ let popupIndicators=popupEle.querySelectorAll("li");
 popupKeys.forEach(function(popupkey){
     popupkey.addEventListener("click",function(){
         let currentImgEle = popupkey.parentElement.previousElementSibling,
-            currentImgSrc = currentImgEle.getAttribute("src"),
+            currentImgSrc = currentImgEle.getAttribute("src");
             galleryImgesArr = Array.from(galleryImages),
             currentImgIndex = galleryImgesArr.indexOf(currentImgEle);
 
