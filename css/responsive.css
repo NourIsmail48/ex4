@@ -1,0 +1,50 @@
+@media (max-width: 1300px) {
+    .popup .box{
+        width: 280px;
+    }
+    .popup .box i{
+        width: 28px;
+        height: 28px;
+    }
+    .popup .box ul{
+        column-gap: 5px;
+        bottom: 10px;
+    }
+    .popup .box ul li{
+        width: 25px;
+        height: 25px;
+    }
+}
+
+@media (min-width: 371px) and (max-width: 1300px) {
+    .popup .box{
+        width: 350px;
+    }
+    .popup .box i{
+        width: 32px;
+        height: 32px;
+    }
+    .popup .box ul{
+        column-gap: 5px;
+        bottom: 20px;
+    }
+    .popup .box ul li{
+        width: 32px;
+        height: 32px;
+    }
+}
+
+@media (min-width: 577px) and (max-width: 1300px) {
+    .popup .box{
+        width: 450px;
+    }
+    .popup .box ul{
+        column-gap: 10px;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1300px) {
+    .popup .box{
+        width: 500px;
+    }
+}
